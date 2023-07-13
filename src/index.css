@@ -39,6 +39,6 @@ button{
   border-radius: 5px;
 }
 
-input::placeholder {
-  font-size: 150%;
+input {
+  font-size: 100%;
 }

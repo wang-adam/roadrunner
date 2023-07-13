@@ -17,6 +17,6 @@ curl -X POST -d '{
   "units": "IMPERIAL"
 }' \
 -H 'Content-Type: application/json' \
--H 'X-Goog-Api-Key: AIzaSyCVempxiGlAs4J4AeAhomaaB39BC82eLz4' \
+-H 'X-Goog-Api-Key: {GOOGLE API KEY}' \
 -H 'X-Goog-FieldMask: routes.duration,routes.distanceMeters,routes.polyline.encodedPolyline' \
 'https://routes.googleapis.com/directions/v2:computeRoutes' > results.txt
