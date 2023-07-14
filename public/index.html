@@ -15,6 +15,21 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="form_content">
+      <form id="my_form">
+        <input id="origin" type="text" name="origin" placeholder="Origin" />
+        <br>
+        <input id="destination" type="text" name="destination" placeholder="Destination" />
+        <br>
+        <label for="early_bound">Earliest time to depart by </label>
+        <input id="early_bound" type="datetime-local" name="early_bound" />
+        <br>
+        <label for="late_bound">Latest time to arrive at destination </label>
+        <input id="late_bound" type="datetime-local" name="late_bound" />
+        <br>
+        <button type="submit"> Search </button>
+      </form>
+    </div>
     <div id="root"></div>
   </body>
 </html>
